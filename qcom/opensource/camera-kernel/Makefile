@@ -5,6 +5,7 @@ KBUILD_OPTIONS += KERNEL_ROOT=$(KERNEL_SRC)
 KBUILD_OPTIONS += MODNAME=camera
 KBUILD_OPTIONS += KBUILD_EXTRA_SYMBOLS=$(OUT_DIR)/../sm8450-modules/qcom/opensource/mmrm-driver/Module.symvers
 
+KBUILD_OPTIONS += MODNAME=cameralog
 all: modules
 
 modules dtbs:
